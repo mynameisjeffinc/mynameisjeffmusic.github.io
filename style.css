@@ -20,7 +20,7 @@ body {
 
 .main-image {
     width: 100%; /* Make it span full width */
-    height: 80vh; /* Adjust height as needed */
+    height: 50vh; /* Adjust height as needed */
     object-fit: cover; /* Ensures it covers the space */
     object-position: top; /* Crops from the top */
     display: block;
