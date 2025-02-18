@@ -6,17 +6,15 @@ body {
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .header {
     text-align: left;
-    font-size: 32px; /* Adjusted for a sleek size */
-    font-weight: 700; /* Bolder for impact */
+    font-size: 42px; /* Slightly bigger for elegance */
+    font-weight: 400; /* Normal weight for natural flow */
     color: white;
     padding: 20px;
-    font-family: 'Orbitron', sans-serif; /* Modern, sci-fi inspired */
-    letter-spacing: 2px; /* Spaced out for a clean, futuristic look */
-    text-transform: uppercase; /* Matches the style from the image */
+    font-family: 'Great Vibes', cursive; /* Stylish cursive font */
 }
 
 
