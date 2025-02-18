@@ -19,12 +19,14 @@ body {
 
 
 .main-image {
-    width: 100%; /* Makes image span full width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure it covers the space */
+    width: 100%; /* Make it span full width */
+    height: 80vh; /* Adjust height as needed */
+    object-fit: cover; /* Ensures it covers the space */
+    object-position: top; /* Crops from the top */
     display: block;
     margin: 0 auto;
 }
+
 
 .social-links {
     display: flex;
