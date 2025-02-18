@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Patrick+Hand&display=swap');
 
 body {
     background-color: #87CEEB; /* Sky blue background */
-    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-family: 'Patrick Hand', cursive; /* Handwritten font */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,12 +10,13 @@ body {
 
 .header {
     text-align: left;
-    font-size: 48px; /* Slightly bigger for a stylish look */
-    font-weight: 400; /* Normal weight for natural flow */
+    font-size: 48px;
+    font-weight: 400;
     color: white;
     padding: 20px;
     font-family: 'Great Vibes', cursive; /* Stylish cursive font */
 }
+
 
 .main-image {
     width: 100%; /* Makes image span full width */
