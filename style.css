@@ -15,13 +15,14 @@ body {
 }
 
 .main-image {
-    width: 100%;
-    max-height: 80vh; /* Ensures the image fits within the screen */
-    object-fit: contain; /* Shows the entire image without cropping */
+    width: 95%; /* Adjusted to make it almost full width */
+    max-height: 80vh; /* Keeps it within screen limits */
+    object-fit: contain; /* Shows the entire image */
     object-position: center; /* Centers the image */
     display: block;
     margin: auto;
 }
+
 
 .social-links {
     display: flex;
