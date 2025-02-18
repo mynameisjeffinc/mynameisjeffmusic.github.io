@@ -6,16 +6,19 @@ body {
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 .header {
     text-align: left;
-    font-size: 28px; /* Slightly smaller for a cleaner look */
-    font-weight: 600; /* Semi-bold but not too heavy */
+    font-size: 32px; /* Adjusted for a sleek size */
+    font-weight: 700; /* Bolder for impact */
     color: white;
     padding: 20px;
-    font-family: 'Montserrat', sans-serif; /* Modern & stylish font */
-    letter-spacing: 1.5px; /* Adds subtle spacing for a premium feel */
-    text-transform: uppercase; /* Makes it stand out more */
+    font-family: 'Orbitron', sans-serif; /* Modern, sci-fi inspired */
+    letter-spacing: 2px; /* Spaced out for a clean, futuristic look */
+    text-transform: uppercase; /* Matches the style from the image */
 }
+
 
 
 .main-image {
