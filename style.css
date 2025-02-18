@@ -10,7 +10,7 @@ body {
 
 .header {
     text-align: left;
-    font-size: 42px; /* Slightly bigger for elegance */
+    font-size: 48px; /* Slightly bigger for a stylish look */
     font-weight: 400; /* Normal weight for natural flow */
     color: white;
     padding: 20px;
@@ -18,12 +18,11 @@ body {
 }
 
 .main-image {
-    width: 99%; /* Adjusted to make it almost full width */
-    max-height: 80vh; /* Keeps it within screen limits */
-    object-fit: contain; /* Shows the entire image */
-    object-position: center; /* Centers the image */
+    width: 100%; /* Makes image span full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure it covers the space */
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .social-links {
