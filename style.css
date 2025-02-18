@@ -8,11 +8,15 @@ body {
 
 .header {
     text-align: left;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 28px; /* Slightly smaller for a cleaner look */
+    font-weight: 600; /* Semi-bold but not too heavy */
     color: white;
     padding: 20px;
+    font-family: 'Montserrat', sans-serif; /* Modern & stylish font */
+    letter-spacing: 1.5px; /* Adds subtle spacing for a premium feel */
+    text-transform: uppercase; /* Makes it stand out more */
 }
+
 
 .main-image {
     width: 99%; /* Adjusted to make it almost full width */
